@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.agora.advancedvideo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:7:5-65
+13-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:8:5-75
+14-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:8:22-72
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:9:5-80
+15-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:12:5-68
+18-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:12:22-65
+19
+20    <application
+20-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:14:5-27:19
+21        android:name="io.agora.advancedvideo.AgoraApplication"
+21-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:15:9-41
+22        android:allowBackup="true"
+22-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:16:9-35
+23        android:label="@string/app_name"
+23-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:17:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:18:9-54
+25        android:supportsRtl="true" >
+25-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:19:9-35
+26        <activity
+26-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:20:9-22:20
+27            android:name="io.agora.advancedvideo.activities.MainActivity"
+27-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:20:19-58
+28            android:screenOrientation="portrait" >
+28-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:21:13-49
+29        </activity>
+30        <activity
+30-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:23:9-26:39
+31            android:name="io.agora.advancedvideo.activities.RoleActivity"
+31-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:24:13-52
+32            android:noHistory="true"
+32-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:26:13-37
+33            android:screenOrientation="portrait" />
+33-->/Users/bobbyjasuja/Downloads/VideoCall/lib-component/src/main/AndroidManifest.xml:25:13-49
+34    </application>
+35
+36</manifest>

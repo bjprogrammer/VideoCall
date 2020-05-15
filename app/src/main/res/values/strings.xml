@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Video Call</string>
+
+    <string name="agora_app_id" translatable="false">78a423874a4a4b3cb946a5cbb41fb8bc</string>
+    <string name="agora_access_token" translatable="false">00678a423874a4a4b3cb946a5cbb41fb8bcIABo75avpNxLlxjseEwc8MzUo7+/kHV/s0ydwqXA7+4HHn3epsEAAAAAEAD/hesdz9y/XgEAAQDP3L9e</string>
+    <string name="agora_channel_name" translatable="false">agora_bobby</string>
+
+    <string name="screen_sharing" translatable="false">Screen Sharing</string>
+</resources>
